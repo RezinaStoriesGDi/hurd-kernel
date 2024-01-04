@@ -2,7 +2,9 @@
 
 The hybrid Core underlying **DSPi OS** and **Quanty OS**.
 
-The **Hurd** kernel was developed taking into account the needs of those ideas that formed the basis of DSPi OS, the first user operating system RezinaStoriesGDi.
+The **Hurd** kernel was developed taking into account the needs of those ideas that formed the basis of **DSPi OS**, the first user operating system **RezinaStoriesGDi**.
+
+The kernel has also proven itself in using operating systems for server use.
 
 This Git provides the source data for installing the kernel (and related utilities) to your computer. You can also examine the source code provided by the bootloader and other third-party kernel components to run the system.
 
@@ -31,4 +33,5 @@ Embed the code of Linux or any other Unix system into the communication interfac
 
 Write your own Hurd extensions under the BIOS. Optimize your own hardware drivers.
 
-Use this development to create a DSPi-like OS.
+
+**Use this development to create a DSPi-like OS.**
