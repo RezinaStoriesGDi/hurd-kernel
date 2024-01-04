@@ -23,6 +23,8 @@ The communication interface between the Hard kernel and the OS.
 The installer.
 An interface for embedding Linux code or any other Unix-like OS.
 
+We also kept the original folder sequence.
+
 ## Your opportunities for using **Hurd**.
 
 We also provide components to write our own interface for communicating the **Hurd** kernel with your operating system (if you want to base it on Hurd). 
@@ -32,6 +34,5 @@ Modify the **loader** the way you want.
 Embed the code of Linux or any other Unix system into the communication interface between the kernel and the operating system. But remember about lineses.
 
 Write your own Hurd extensions under the BIOS. Optimize your own hardware drivers.
-
 
 **Use this development to create a DSPi-like OS.**
