@@ -1,0 +1,37 @@
+@echo off
+title Setup «Hurd»
+
+@echo off
+title Boot Hurd
+color 9F
+
+            echo Enter to 'st' command, in to start boot Hurd
+            echo.
+            echo Loading configuration Hurd
+            echo.
+		    echo.
+		    echo [hurd@boot]>$
+			echo $
+
+:G
+		   
+set /p x=
+if %x%==st( echo Hurd load boot files
+            echo.
+		    echo.
+		    echo [Hurd] compiling kernel:
+		    echo [Hurd] kernel compiled
+		    echo.
+		    echo Compiler: No found, command='ON', compile = true;
+		    echo Driver's No load = false;
+		    echo. 
+		    echo Hurd Starting...
+		   
+		    echo.
+		    echo.
+		    echo.
+		    echo.
+		    echo kernel version: 1.0.2.3
+		   
+ ) ELSE ( echo Command Not Found. Boot Hurd is enter to 'st')
+goto :G
