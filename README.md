@@ -19,7 +19,7 @@ The Hurd kernel is a hybrid of a monolithic framework and modular elements, prov
 **Hurd** kernel.
 The loader.
 The necessary configuration to run through a virtual machine.
-The communication interface between the Hard kernel and the OS.
+The communication interface between the Hurd kernel and the OS.
 The installer.
 An interface for embedding Linux code or any other Unix-like OS.
 
